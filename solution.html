@@ -1,0 +1,13 @@
+```html
+<div class="bg-gradient-to-r from-blue-500 to-purple-500 p-4 rounded-lg shadow-lg">
+  <!-- Content -->
+</div>
+<div class="p-4 bg-blue-500 rounded-lg shadow-lg fallback-gradient">
+  <!-- fallback gradient in case browser doesn't support linear gradients-->
+</div>
+<style>
+  .fallback-gradient {
+    background-image: linear-gradient(to right, blue, purple);
+  }
+</style>
+```
